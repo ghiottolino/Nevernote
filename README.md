@@ -1,3 +1,13 @@
+# Setup (Download from github)
+
+If you downloaded this repository be aware that the maven wrapper tool is not nicely packaged inside the repo.
+You can download it following this guide: https://www.baeldung.com/maven-wrapper
+or you can unzip a zipped version I have in this repo: e.g. unzip mvn.zip.
+
+Also github download will not have the right permissions to run the spring boot application, therefore you may need to chmod -R 775 *.
+
+Alternatively you can 
+
 # How to run
 
 Start the webserver, from your terminal:
